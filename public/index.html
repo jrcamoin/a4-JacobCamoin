@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A private, accessible todo list organized by priority and deadline.">
+  <meta name="theme-color" content="#172554">
+  <link rel="stylesheet" href="vendor/pico/pico.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <script src="js/main.js" defer></script>
+  <title>Get It Done List</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <nav class="header-inner" aria-label="Account navigation">
+      <a class="brand" href="/" aria-label="Get It Done List home">
+        <span class="brand-mark" aria-hidden="true">✓</span>
+        <span>Get It Done List</span>
+      </a>
+      <button id="logout-button" class="outline logout-button" type="button" hidden>Log out</button>
+    </nav>
+  </header>
+
+  <main id="main-content" class="app-shell">
+    <div id="todo-root"></div>
+  </main>
+  <footer><p>Get It Done List</p></footer>
+</body>
+</html>
